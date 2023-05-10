@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main(){
+    int letra;
+    printf("Escolha umas das opções windows ou linux\n\n");
+    printf("Escolha uma opção");
+    scanf("%d",&letra);
+    switch(letra){
+        case 1 :
+        printf("Incializando o windows");
+        break;
+       case 2 :
+        printf("Incializando o linux");
+        break;
+        default:
+        printf("Escolha errada");
+          
+    
+    }
+}
